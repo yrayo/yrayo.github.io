@@ -1,0 +1,108 @@
+/* Applies to the full page */
+html * {
+	box-sizing: border-box;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	scroll-behavior: smooth;
+}
+/* background page edits */
+.body {
+    background-color: #72ABE1;
+}
+/* Navigational bar edits only */
+.navbar {
+	color: white;
+}
+/* Top left logo edits only */
+.style-logo {
+	margin-left: 20px;
+	margin-righ: 10px;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: block;
+}
+/* Navigational bar edits */
+.navbar ul {
+	list-style-type: none;
+	padding: 5px;
+}
+/* Navigational bar edits, including the links */
+.navbar ul li a:hover {
+	background: #314b60;
+  	box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+}
+
+.navbar ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	text-align: right;
+	padding: 10px;
+	text-transform: uppercase;
+	margin-right: 20px;
+}
+/* Home page  center text and image containor */
+.main-content {
+	text-align: center;
+	padding: 20px;
+}
+/* Home page central image within text */
+.personal-image, h5 {
+	text-align: center;
+	padding: 20px;
+	padding-top: 25px;
+}
+/* All pages footer edits only */
+.main-footer {
+	background-color: white;
+	text-align: center;
+	padding: 10px;
+	padding-top: 10px;
+}
+/* Contact me form edits only */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+/* Gives my submit button a color change when hovered over*/
+input[type=submit]:hover {
+  background-color: cornflowerblue;
+}
+/***********Content below this line is for the resume / work page only***********/
+section {
+	padding: 20px;
+}
+
+h2 .resume-skills .resume-education .resume-experience{
+	margin-top: 20px;
+	font-size: 24px;
+}
+
+ul .resume-education .resume-experience .resume-skills {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#skill-bullets {
+	list-style-type: none;
+}
+
+h3 .resume-experience {
+	list-style: none;
+}
+
+li .resume-education .resume-experience .resume-skills {
+	margin-bottom: 10px;
+}
+
+#work-link {
+	text-decoration: none;
+	color: black;
+}
+
